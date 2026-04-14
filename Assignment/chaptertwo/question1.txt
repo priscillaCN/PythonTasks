@@ -1,7 +1,0 @@
-x = 2
-y = 3
-
-a) x = 2
-b) Value of 2 + 2 is 4
-c) x =
-d) 5 = 5
