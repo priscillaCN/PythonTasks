@@ -1,12 +1,13 @@
 """A program that evaluates the strength of a user's password"""
 
 """
-1. prompt user to enter a password
+1. create a password variable
 2. use the len keyword to declare input
-3. if password length is less than 8, print very weak
-4. if password length is 8, print weak
-5. if password is between 8 and 16, print strong
-6. if password length is above 16, print very strong  
+3. prompt user to enter password
+4. if password length is less than 8, print very weak
+5. else if password length is 8, print weak
+6. else if password is between 8 and 16, print strong
+7. else, print very strong  
 """
 
 password = len(input('Enter your password: '))
