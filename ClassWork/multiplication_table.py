@@ -2,8 +2,8 @@
 
 """
 prompt user to enter a number
-initialise a variable called count
-initilalise a multiple variable to take in value of count times number entered by user
+initlise a variable called count
+initilise a multiple variable to take in value of count times number entered by user
 use for loop and set range to (1,11)
 give count the value of range
 give multiple vaiable the value of range times number
