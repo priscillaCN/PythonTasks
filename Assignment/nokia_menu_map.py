@@ -346,8 +346,8 @@ RECEIVED CALLS
 
             if (select_option == 3):
                 print("""
-MISSED CALL
-0. DIALLED NUMBERS                
+DIALLED NUMBERS
+0. Go back                
 """)
 
             if (select_option == 4):
@@ -483,3 +483,339 @@ PREPAID CREDIT
             if (select_option == 99):
                 display_main_menu()
                 menu_number = int(input('Select menu number: '))
+                
+                
+                
+        case 5:
+            case_five_menu = ("""
+TONES
+1. Ringing tone
+2. Ringing volume
+3. Incoming call alert
+4. Composer
+5. Message alert tone
+6. Keypad tones
+7. Warning and game tones
+8. Vibrating alert
+9. Screen saver
+99.Go back           
+""")
+
+            display_submenu(case_five_menu)
+            
+            select_option = int(input('Select option: '))
+            if (select_option == 1):
+                print("""
+RINGING TONE
+0. Go back                
+""")
+
+            if (select_option == 2):
+                print("""
+RINGING VOLUME
+0. Go back                
+""")
+
+            if (select_option == 3):
+                print("""
+INCOMING CALL ALERT
+0. DIALLED NUMBERS                
+""")
+
+            if (select_option == 4):
+                print("""
+COMPOSER
+0. Go back                
+""")
+
+            if (select_option == 5):
+                print("""
+MESSAGE ALERT TONE
+0. Go back                
+""")
+
+            if (select_option == 6):
+                print("""
+KEYPAD TONES
+0. Go back                
+""")
+
+            if (select_option == 7):
+                print("""
+WARNING AND GAME TONES
+0. Go back                
+""")
+
+            if (select_option == 8):
+                print("""
+VIBRATING ALERT
+0. Go back                
+""")
+
+            if (select_option == 9):
+                print("""
+SCREEN SAVER
+0. Go back                
+""")
+
+            select_suboption = int(input('Select option: '))
+            if (select_suboption == 0):
+                display_submenu(case_five_menu)
+                
+            select_option = int(input('Select option: '))
+            
+            if (select_option == 99):
+                display_main_menu()
+                menu_number = int(input('Select menu number: '))
+                
+                
+
+        case 6:
+            case_six_menu = ("""
+SETTINGS
+1. Call settings
+2. Speed dialling
+3. Call waiting options
+4. Own number sending
+5. Phone line in use
+6. Automatic answer
+99.Go back            
+""")
+
+            display_submenu(case_six_menu)
+            
+            select_option = int(input('Select option: '))
+            if (select_option == 1):
+                print("""
+CALL SETTINGS
+0. Go back                
+""")
+
+            if (select_option == 2):
+                print("""
+SPEED DIALLING
+0. Go back                
+""")
+
+            if (select_option == 3):
+                print("""
+CALL WAITING OPTIONS
+0. Go back               
+""")
+
+            if (select_option == 4):
+                print("""
+OWN NUMBER SENDING
+0. Go back                
+""")
+
+            if (select_option == 5):
+                print("""
+PHONE LINE IN USE
+0. Go back                
+""")
+
+            if (select_option == 6):
+                print("""
+AUTOMATIC ANSWER
+0. Go back                
+""")
+
+            select_suboption = int(input('Select option: '))
+            if (select_suboption == 0):
+                display_submenu(case_six_menu)
+                
+            select_option = int(input('Select option: '))
+            
+            if (select_option == 99):
+                display_main_menu()
+                menu_number = int(input('Select menu number: '))
+                      
+                
+                
+        case 7:
+            case_seven_menu = ("""
+CALL DIVERT
+0. Go back            
+""")
+
+            display_submenu(case_seven_menu)
+
+            select_suboption = int(input('Select option: '))
+            if (select_suboption == 0):
+                display_submenu(case_seven_menu)
+                
+            select_option = int(input('Select option: '))
+            
+            if (select_option == 99):
+                display_main_menu()
+                menu_number = int(input('Select menu number: '))   
+
+
+                                      
+        case 8:
+            case_eight_menu = ("""
+GAMES
+0. Go back            
+""")
+
+            display_submenu(case_eight_menu)
+
+            select_suboption = int(input('Select option: '))
+            if (select_suboption == 0):
+                display_submenu(case_eight_menu)
+                
+            select_option = int(input('Select option: '))
+            
+            if (select_option == 99):
+                display_main_menu()
+                menu_number = int(input('Select menu number: '))
+                
+                
+                
+
+        case 9:
+            case_nine_menu = ("""
+CALCULATOR
+0. Go back            
+""")
+
+            display_submenu(case_nine_menu)
+
+            select_suboption = int(input('Select option: '))
+            if (select_suboption == 0):
+                display_submenu(case_nine_menu)
+                
+            select_option = int(input('Select option: '))
+            
+            if (select_option == 99):
+                display_main_menu()
+                menu_number = int(input('Select menu number: '))
+                
+                
+                
+
+        case 10:
+            case_ten_menu = ("""
+REMINDERS
+0. Go back            
+""")
+
+            display_submenu(case_ten_menu)
+
+            select_suboption = int(input('Select option: '))
+            if (select_suboption == 0):
+                display_submenu(case_ten_menu)
+                
+            select_option = int(input('Select option: '))
+            
+            if (select_option == 99):
+                display_main_menu()
+                menu_number = int(input('Select menu number: '))  
+
+
+
+        case 11:
+            case_eleven_menu = ("""
+CLOCK
+1. Alarm clock
+2. Clock settings
+3. Date settings
+4. Stopwatch
+5. Countdown timer
+6. Auto update of date and time
+99. Go back          
+""")
+
+            display_submenu(case_eleven_menu)
+            
+            select_option = int(input('Select option: '))
+            if (select_option == 1):
+                print("""
+ALARM CLOCK
+0. Go back                
+""")
+
+            if (select_option == 2):
+                print("""
+CLOCK SETTINGS
+0. Go back                
+""")
+
+            if (select_option == 3):
+                print("""
+DATE SETTINGS
+0. Go back                
+""")
+
+            if (select_option == 4):
+                print("""
+STOPWATCH
+0. Go back                
+""")
+
+            if (select_option == 5):
+                print("""
+COUNTDOWN TIMER
+0. Go back                
+""")
+
+            if (select_option == 6):
+                print("""
+AUTO UPDATE OF DATE AND TIME
+0. Go back                
+""")
+
+            select_suboption = int(input('Select option: '))
+            if (select_suboption == 0):
+                display_submenu(case_eleven_menu)
+                
+            select_option = int(input('Select option: '))
+            
+            if (select_option == 99):
+                display_main_menu()
+                menu_number = int(input('Select menu number: ')) 
+
+
+        case 12:
+            case_twelve_menu = ("""
+PROFILES
+0. Go back            
+""")
+
+            display_submenu(case_twelve_menu)
+
+            select_suboption = int(input('Select option: '))
+            if (select_suboption == 0):
+                display_submenu(case_twelve_menu)
+                
+            select_option = int(input('Select option: '))
+            
+            if (select_option == 99):
+                display_main_menu()
+                menu_number = int(input('Select menu number: '))    
+
+
+        case 13:
+            case_thirteen_menu = ("""
+SIM SERVICES
+0. Go back            
+""")
+
+            display_submenu(case_thirteen_menu)
+
+            select_suboption = int(input('Select option: '))
+            if (select_suboption == 0):
+                display_submenu(case_thirteen_menu)
+                
+            select_option = int(input('Select option: '))
+            
+            if (select_option == 99):
+                display_main_menu()
+                menu_number = int(input('Select menu number: '))
+                
+        case 14:
+            break
+            
+
+                
